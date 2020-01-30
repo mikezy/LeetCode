@@ -18,7 +18,7 @@ class Solution {
             
             if (charMap.containsValue(s.charAt(i))) {
                 st.push(s.charAt(i));
-            } else if (st.peek() != charMap.get(s.charAt(i))) {
+            } else if (st.empty() ||st.peek() != charMap.get(s.charAt(i))) {
                 return false;
             } else st.pop();
         }
