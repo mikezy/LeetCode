@@ -17,7 +17,7 @@ class Solution {
         }
         //termination case 2, sum of the sublist > target
         if (target < 0) {
-            return;
+            return; 
         }
         
         //loop through the candidates
