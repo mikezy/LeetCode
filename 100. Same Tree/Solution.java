@@ -16,7 +16,7 @@ class Solution {
         //compare the two array list
         List<Integer> listP = new ArrayList<>();
         List<Integer> listQ = new ArrayList<>();
-        //dfs
+        //dfs 
         dfs(p, listP);
         dfs(q, listQ);
         return listP.equals(listQ);
