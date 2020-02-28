@@ -11,7 +11,7 @@ class Solution {
     }
     
     private void dfs(int[] nums, int k, int index, List<Integer> subset, List<List<Integer>> res) {
-        //termination case
+        //termination case  
         if (subset.size() == k) {
             res.add(new ArrayList<Integer>(subset));
             return;

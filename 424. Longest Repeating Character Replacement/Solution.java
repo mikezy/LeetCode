@@ -12,7 +12,7 @@ class Solution {
         maxCharCount = Math.max(maxCharCount, currCharCount);
         
         while (window_end - window_start - maxCharCount +1 > k) {//change the window start
-         //pop the window_start  
+         //pop the window_start   
           char_counts[s.charAt(window_start) - 'A']--;
           window_start++;
           
