@@ -9,7 +9,7 @@
  */
 class Solution {
     public int minDepth(TreeNode root) {
-        //corner case
+        //corner case 
         if (root == null) return 0;
         if (root.left == null && root.right == null) return 1;
         //init queue
