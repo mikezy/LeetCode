@@ -22,7 +22,7 @@ class Solution {
         
 //       return maxLength;
       
-      //sliding window 2  
+      //sliding window 2    
       if (s == null || s.length() == 0) return 0;
       int res = 0;
       //<char in s, char's latest index>
