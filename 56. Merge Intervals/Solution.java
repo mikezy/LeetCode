@@ -9,7 +9,7 @@ class Solution {
             return a[0] - b[0];
         });
         
-        //two pointers: prev and curr 
+        //two pointers: prev and curr   
         //result list
         int[] prev = intervals[0];
         List<int[]> res = new ArrayList<>();
