@@ -4,7 +4,7 @@ class Solution {
         if (intervals  == null || intervals.length <= 1) return 0;
 //         //sort
 //         Arrays.sort(intervals, (a, b) -> {
-//             return a[1] - b[1];  
+//             return a[1] - b[1];    
 //         });
 //         //greedy solution 1
 //         int ans = 0;
