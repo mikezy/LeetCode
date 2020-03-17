@@ -14,7 +14,7 @@ class Solution {
     }
     
     private void dfs(int level, int n) {
-        //termination case
+        //termination case  
         if (level == n) {//found the solution
             res++;
             return;
