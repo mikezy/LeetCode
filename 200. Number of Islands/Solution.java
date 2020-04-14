@@ -1,5 +1,5 @@
 class Solution {
-        //dx dy for visiting neighbors
+        //dx dy for visiting neighbors 
         int[] dx = {0, 1, 0 ,-1};
         int[] dy = {1, 0, -1, 0};
     public int numIslands(char[][] grid) {
